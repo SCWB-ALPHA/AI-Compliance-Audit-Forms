@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Compliance Audit Forms — README</title>
+  <style>
+    :root{
+      --bg:#0f172a;        /* slate-900 */
+      --panel:#111827;     /* gray-900 */
+      --text:#e5e7eb;      /* gray-200 */
+      --muted:#9ca3af;     /* gray-400 */
+      --accent:#10b981;    /* emerald-500 */
+      --code:#0b1020;      /* dark code bg */
+      --border:#1f2937;    /* gray-800 */
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:900px;margin:40px auto;padding:0 20px}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:28px}
+    h1{font-size:2rem;line-height:1.2;margin:0 0 12px}
+    h2{font-size:1.5rem;margin:28px 0 10px}
+    h3{font-size:1.15rem;margin:22px 0 8px}
+    p{margin:10px 0}
+    ul{margin:10px 0 10px 1.25rem}
+    code,kbd{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;background:var(--code);border:1px solid var(--border);padding:0 .35rem;border-radius:6px}
+    pre{background:var(--code);border:1px solid var(--border);padding:14px;border-radius:12px;overflow:auto}
+    pre code{background:transparent;border:none;padding:0}
+    .muted{color:var(--muted)}
+    .hr{height:1px;background:var(--border);margin:22px 0}
+    .badge{display:inline-flex;align-items:center;gap:.5rem;background:#0b2b22;border:1px solid #134e4a;color:#a7f3d0;padding:.35rem .6rem;border-radius:999px;font-size:.9rem}
+    .toc{background:#0c1224;border:1px solid var(--border);border-radius:12px;padding:16px;margin:18px 0}
+    .section{scroll-margin-top:80px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <header>
+        <h1>🛡️ AI Compliance Audit Forms</h1>
+        <p class="muted">A lightweight, web-based tool to evaluate and document AI compliance across governance areas.</p>
+        <div class="hr"></div>
+      </header>
+
+      <section class="toc">
+        <strong>Table of Contents</strong>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#structure">Project Structure</a></li>
+          <li><a href="#tech">Tech Stack</a></li>
+          <li><a href="#run">How to Run</a></li>
+          <li><a href="#overview">Audit Categories Overview</a></li>
+          <li><a href="#license">License</a></li>
+          <li><a href="#contrib">Contribution</a></li>
+        </ul>
+      </section>
+
+      <section id="intro" class="section">
+        <p>
+          <strong>AI Compliance Audit Forms</strong> provides a structured way to review and capture compliance across
+          <em>laws, ethics, security, oversight, consent, accessibility</em>, and more—using guided measures and example checks.
+        </p>
+      </section>
+
+      <section id="features" class="section">
+        <h2>📌 Features</h2>
+        <h3>Audit Categories</h3>
+        <ul>
+          <li>Jurisdiction-Specific Laws</li>
+          <li>Universal Ethics</li>
+          <li>Cross-Border Transfers</li>
+          <li>Security Measures</li>
+          <li>Consent &amp; Transparency</li>
+          <li>Third-Party Audits</li>
+          <li>AI Oversight</li>
+          <li>Incident Management</li>
+          <li>Accessibility</li>
+        </ul>
+
+        <h3>Compliance Measures</h3>
+        <ul>
+          <li><em>Encryption at rest/transit, access control, patching</em></li>
+          <li><em>Bias detection and mitigation</em></li>
+          <li><em>Documentation and ongoing assessment</em></li>
+        </ul>
+
+        <h3>Example Checks</h3>
+        <ul>
+          <li><em>Is encryption used for all sensitive data?</em></li>
+          <li><em>Are audit certificates up to date?</em></li>
+          <li><em>Does the AI support screen reader technologies?</em></li>
+        </ul>
+        <div class="hr"></div>
+      </section>
+
+      <section id="structure" class="section">
+        <h2>🏗️ Project Structure</h2>
+        <p>The project uses <strong>Tailwind CSS</strong> for styling and <strong>vanilla JavaScript</strong> for interactivity.</p>
+        <pre><code>ai-compliance-audit-forms/
+│
+├── index.html        # Main app file (UI + logic)
+├── README.md         # Documentation
+└── assets/           # (Optional) Future CSS/JS/Images
+</code></pre>
+      </section>
+
+      <section id="tech" class="section">
+        <h2>⚙️ Tech Stack</h2>
+        <ul>
+          <li><strong>Frontend:</strong> HTML5, Tailwind CSS, JavaScript (Vanilla)</li>
+          <li><strong>Fonts:</strong> <a href="https://fonts.google.com/specimen/Inter" target="_blank" rel="noopener">Inter</a></li>
+          <li><strong>UI/UX:</strong> Responsive design, accessible controls, audit-item cards</li>
+        </ul>
+      </section>
+
+      <section id="run" class="section">
+        <h2>🚀 How to Run</h2>
+        <ol>
+          <li>Clone the repository:
+            <pre><code>git clone https://github.com/your-username/ai-compliance-audit-forms.git
+cd ai-compliance-audit-forms</code></pre>
+          </li>
+          <li>Open <code>index.html</code> in your browser.</li>
+        </ol>
+        <p class="muted">💡 No build tools required. Everything runs client-side.</p>
+      </section>
+
+      <section id="overview" class="section">
+        <h2>📂 Audit Categories Overview</h2>
+
+        <h3>🏛️ Laws</h3>
+        <ul>
+          <li><strong>Measures:</strong> EU AI Act, GDPR, HIPAA, PIPL compliance</li>
+          <li><strong>Checks:</strong> Legal disclosures, consent forms</li>
+        </ul>
+
+        <h3>⚖️ Ethics</h3>
+        <ul>
+          <li><strong>Measures:</strong> Fairness, transparency, accountability</li>
+          <li><strong>Checks:</strong> Model cards, human reviewability</li>
+        </ul>
+
+        <h3>🌍 Transfers</h3>
+        <ul>
+          <li><strong>Measures:</strong> SCCs, BCRs, adequacy rules</li>
+          <li><strong>Checks:</strong> Validity of transfer mechanisms</li>
+        </ul>
+
+        <h3>🔐 Security</h3>
+        <ul>
+          <li><strong>Measures:</strong> Encryption, patching, access control</li>
+          <li><strong>Checks:</strong> Logs, suspicious activity audits</li>
+        </ul>
+
+        <h3>📝 Consent</h3>
+        <ul>
+          <li><strong>Measures:</strong> Informed consent, data access rights</li>
+          <li><strong>Checks:</strong> Consent dashboard, request handling</li>
+        </ul>
+
+        <h3>🔎 Third-Party Audits</h3>
+        <ul>
+          <li><strong>Measures:</strong> External audit certificates</li>
+          <li><strong>Checks:</strong> Certificate availability &amp; validity</li>
+        </ul>
+
+        <h3>👁️ Oversight</h3>
+        <ul>
+          <li><strong>Measures:</strong> Explainability, redress mechanisms</li>
+          <li><strong>Checks:</strong> Human review of AI decisions</li>
+        </ul>
+
+        <h3>🚨 Incident Management</h3>
+        <ul>
+          <li><strong>Measures:</strong> Breach logs, forensic reporting</li>
+          <li><strong>Checks:</strong> Incident reporting timelines</li>
+        </ul>
+
+        <h3>♿ Accessibility</h3>
+        <ul>
+          <li><strong>Measures:</strong> WCAG compliance, multiple inputs</li>
+          <li><strong>Checks:</strong> Screen reader support, inclusive training data</li>
+        </ul>
+      </section>
+
+      <section id="license" class="section">
+        <h2>📜 License</h2>
+        <p>This project is open-source under the <strong>MIT License</strong>.</p>
+      </section>
+
+      <section id="contrib" class="section">
+        <h2>🙌 Contribution</h2>
+        <p>Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to add.</p>
+        <p><span class="badge">Ready for GitHub Pages</span></p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
