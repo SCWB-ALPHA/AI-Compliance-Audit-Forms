@@ -3,7 +3,7 @@
 AI Compliance Audit Forms is a lightweight, web-based tool designed to help organizations evaluate and document compliance across multiple AI governance areas.  
 It provides a structured way to review **laws, ethics, security, oversight, consent, accessibility**, and more through guided compliance measures and example checks.
 
-# click readme.html
+# click [https://github.com/SCWB-ALPHA/AI-Compliance-Audit-Forms/blob/Main/README.html] 
 ---
 
 ## 📌 Features
